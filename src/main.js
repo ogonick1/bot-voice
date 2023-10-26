@@ -75,7 +75,6 @@ bot.on(message('text'), async (ctx) => {
     console.log(23, error.message)
   }
 })
-
 bot.launch()
 
 process.once('SIGINT', () => bot.stop('SIGINT'))
